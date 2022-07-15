@@ -1,0 +1,32 @@
+.box {
+
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.item {
+  margin-bottom: 21px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #919399;
+
+  opacity: 0.5;
+
+  &.active {
+    color: #FFFFFF;
+
+    opacity: 1;
+  }
+}

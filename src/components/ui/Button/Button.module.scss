@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  min-height: 40px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+  background-color: #50B848;
+  border: 1px solid #000000;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  &.withIcon {
+    padding-right: 16px;
+  }
+}
+
+.icon {
+  margin-left: 8px;
+}

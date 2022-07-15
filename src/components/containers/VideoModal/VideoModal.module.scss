@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 88px;
+  padding: 24px;
+}
+
+.name {
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2C2D2E;
+}
+
+.container {
+  overflow: hidden;
+
+  position: relative;
+
+  display: flex;
+
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.toFrames {
+  position: absolute;
+  z-index: 2;
+
+  top: 16px;
+  right: 95px;
+}
+
+.nav {
+  position: absolute;
+  z-index: 2;
+  top: 45%;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.playing {
+  .toFrames, .nav {
+    display: none;
+  }
+}
